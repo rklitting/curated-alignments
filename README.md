@@ -4,7 +4,7 @@ We periodically combine genomic sequences generated as part of our consortium wi
 
 ## Lassa
 
-Alignment File: [lassa/LASV_2019-09-04.fasta](LASV_2019-09-04.fasta)
+Alignment File: [LASV_2019-09-04.fasta](https://github.com/cvisb/curated-alignments/blob/master/lassa/LASV_2019-09-04.fasta)
 
 Total Number of sequences: 592
 
