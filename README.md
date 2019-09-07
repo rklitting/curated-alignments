@@ -19,7 +19,7 @@ Species
 
 | Code | Species | Count |
 |:---|:---|:---|
-| Hs | *Homo sapien* | 567 |
+| Hs | *Homo sapiens* | 567 |
 | Hp | *Hylomyscus pamfi* | 1 |
 | Me | *Mastomys erythroleucus* | 9 |
 | Mn | *Mastomys natalensis* | 15 |
