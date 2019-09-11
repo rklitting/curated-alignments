@@ -1,10 +1,10 @@
 ## Curated alignments
 
-We periodically combine genomic sequences generated as part of our consortium with publicly available sequences. These sequences are codon aligned and curated to exclude sequences of lower quality and with missing metadata.
+We periodically combine genomic sequences generated as part of our consortium with publicly available sequences. Sequences of lower quality and with missing metadata are excluded. The sequences are trimmed to their coding regions and codon aligned using [mafft](https://mafft.cbrc.jp/alignment/software/tips0.html). We will be releasing such curated alignments perdiodically to be used by the broader community for downstream analyses. 
 
 ## Lassa
 
-Alignment File: [LASV_2019-09-04.fasta](https://github.com/cvisb/curated-alignments/blob/master/lassa/LASV_2019-09-04.fasta)
+Alignment File: [LASV_2019-09-04.fasta](https://raw.githubusercontent.com/cvisb/curated-alignments/master/lassa/LASV_Sseg_2019-09-04.fasta)
 
 Total Number of sequences: 592
 
@@ -42,8 +42,6 @@ Outcome
 | Died | Died | 119 |
 | Discharged | Discharged | 89 |
 | UNK | Unknown | 384 |
-
-**Disclaimer**. Please note that this data is still based on work in progress and should be considered preliminary. If you intend to include any of these data in publications, please let us know – otherwise please feel free to download and use without restrictions. We have shared this data with the hope that people will download and use it, as well as scrutinize it so we can improve our methods and analyses. Please contact us if you have any questions or comments – we’ll buy beers for #ResearchParasites that spot flaws and faults in the data and come up with improvements!
 
 ---
 **Andersen Lab**  
