@@ -1,6 +1,6 @@
 ## Curated alignments
 
-We periodically combine genomic sequences generated as part of our consortium with publicly available sequences. Sequences of lower quality and with missing metadata are excluded. The sequences are trimmed to their coding regions and codon aligned using [mafft](https://mafft.cbrc.jp/alignment/software/tips0.html). We will be releasing such curated alignments perdiodically to be used by the broader community for downstream analyses. 
+We periodically combine genomic sequences generated as part of our consortium with publicly available sequences. Sequences of lower quality and with missing metadata (primarily date and country) are excluded. The sequences are trimmed to their coding regions and codon aligned using [mafft](https://mafft.cbrc.jp/alignment/software/tips0.html). We will be releasing such curated alignments perdiodically to be used by the broader community for downstream analyses. 
 
 ## Lassa
 
