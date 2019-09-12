@@ -1,6 +1,15 @@
 ## Curated alignments
 
-We periodically combine genomic sequences generated as part of our consortium with publicly available sequences. Sequences of lower quality and with missing metadata (primarily date and country) are excluded. The sequences are trimmed to their coding regions and codon aligned using [mafft](https://mafft.cbrc.jp/alignment/software/tips0.html). We will be releasing such curated alignments perdiodically to be used by the broader community for downstream analyses. 
+We periodically combine genomic sequences generated as part of our consortium with publicly available sequences. 
+
+Sequences with lower quality (probable sequencing errors) and incomplete sequences (<95% of (GP+NP) or (Z+L) ORFs length) are excluded from the curated alignment.Remaining sequences are trimmed to their coding regions, codon aligned using [mafft](https://mafft.cbrc.jp/alignment/software/tips0.html) and inspected manually. ORFs are arranged in sense orientation as follows:
+
+S segment: NP -NNNNNN- GP
+L segment: L -NNNNNN- Z
+
+To control for alignment accuracy, a maximum likelihood (ML) phylogeny is reconstructed with RAxML using the general time-reversible (GTR) nucleotide substitution model, gamma-distributed rates among sites and bootstrap resampling with 500 replicates.
+
+We will be releasing such curated alignments periodically to be used by the broader community for downstream analyses.
 
 ## Lassa
 
