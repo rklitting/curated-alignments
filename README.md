@@ -1,5 +1,5 @@
 ## Curated alignments
-
+ 
 We periodically combine genomic sequences generated as part of our consortium with publicly available sequences. 
 
 Sequences with lower quality (manual curation, 8 removed) and incomplete sequences (<95% of (GP+NP) or (Z+L) ORFs length, 289 removed) are excluded from the curated alignment. Remaining sequences are trimmed to their coding regions, codon aligned using [mafft](https://mafft.cbrc.jp/alignment/software/tips0.html) and inspected manually. ORFs are arranged in sense orientation as follows:
